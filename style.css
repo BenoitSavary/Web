@@ -1,0 +1,16 @@
+header
+{
+    background-color: #27251f;
+}
+
+.logo
+{
+    filter: invert(100%);
+    width: 100%;
+    height: auto;
+}
+
+.image
+{
+    width: 10%;
+}
