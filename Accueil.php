@@ -5,29 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>CESI Stage</title>
 </head>
 <body>
-    <header class="p-3 bg text-white">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="Accueil.html" class="image">
-                    <img class="logo" src="img/logo-CESI.png" alt="Logo CESI">
-                </a>
-
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="Accueil.html" class="nav-link px-2 text-white">Accueil</a></li>
-                    <li><a href="Offres.html" class="nav-link px-2 text-white">Offres de stage</a></li>
-                    <li><a href="Entreprises.html" class="nav-link px-2 text-white">Entreprises</a></li>
-                </ul>
-
-                <div class="text-end">
-                    <button type="button" class="btn btn-warning">Se connecter</button>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include 'Header_nonconnecte.php'; ?>
 
     <main>
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -42,7 +25,7 @@
 
                     <div class="container">
                         <div class="carousel-caption text-start">
-                            <p><a class="btn btn-lg btn-primary" href="#presentation">Présentation</a></p>
+                            <p><a id="btn-carousel" class="btn btn-warning" href="#presentation">Présentation</a></p>
                         </div>
                     </div>
                 </div>
@@ -51,7 +34,7 @@
 
                     <div class="container">
                         <div class="carousel-caption">
-                            <p><a class="btn btn-lg btn-primary" href="Offres.html">Offres de stage</a></p>
+                            <p><a id="btn-carousel" class="btn btn-warning" href="Offres.php">Offres de stage</a></p>
                         </div>
                     </div>
                 </div>
@@ -60,7 +43,7 @@
 
                     <div class="container">
                         <div class="carousel-caption text-end">
-                            <p><a class="btn btn-lg btn-primary" href="Entreprises.html">Entreprises</a></p>
+                            <p><a id="btn-carousel" class="btn btn-warning" href="Entreprises.php">Entreprises</a></p>
                         </div>
                     </div>
                 </div>
@@ -75,6 +58,8 @@
             </button>
         </div>
     </main>
+
+    <?php include 'Footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
