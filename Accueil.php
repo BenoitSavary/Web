@@ -30,7 +30,7 @@
 
                     <div class="container">
                         <div class="carousel-caption text-start">
-                            <p><a class="btn btn-lg btn-primary" href="#presentation">Présentation</a></p>
+                            <p><a id="btn-carousel" class="btn btn-warning" href="#presentation">Présentation</a></p>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
 
                     <div class="container">
                         <div class="carousel-caption">
-                            <p><a class="btn btn-lg btn-primary" href="Offres.html">Offres de stage</a></p>
+                            <p><a id="btn-carousel" class="btn btn-warning" href="Offres.php">Offres de stage</a></p>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
 
                     <div class="container">
                         <div class="carousel-caption text-end">
-                            <p><a class="btn btn-lg btn-primary" href="Entreprises.html">Entreprises</a></p>
+                            <p><a id="btn-carousel" class="btn btn-warning" href="Entreprises.php">Entreprises</a></p>
                         </div>
                     </div>
                 </div>
@@ -65,6 +65,7 @@
     </main>
 
     <?php include 'Cookies.php' ?>
+    <?php include 'Footer.php' ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

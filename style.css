@@ -1,14 +1,24 @@
-body {
-	margin: 0;
-	min-height: 100vh;
-	display: grid;
-	grid-template-rows: auto 1fr auto;
+body
+{
+    margin: 0;
     font-family: 'Roboto thin', sans-serif;
+    font-size: 17px;
+    height: 100vh;
 }
 
 header
 {
     background-color: #27251f;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+footer
+{
+    background-color: #27251f;
+    position: absolute;
+    bottom: 0;
 }
 
 .logo
@@ -16,11 +26,28 @@ header
     filter: invert(100%);
     width: 100%;
     height: auto;
+    position: relative;
+    left: -65px;
 }
 
 .image
 {
     width: 20%;
+}
+
+.surbrillance:hover
+{
+    color: #ffc845!important;
+}
+
+#connexion
+{
+    background-color: #ffc845;
+}
+
+#btn-carousel
+{
+    background-color: #ffc845;
 }
 
 .presentation
@@ -49,12 +76,12 @@ header
 
 #Cookies
 {
-    position: sticky;
+    position: absolute;
     width: 20%;
     border-radius: 8px;
     padding: 1%;
     background-color: #d0d0ce;
-
+    z-index: 100;
     bottom: 20px;
     left: 20px;
 }
@@ -69,7 +96,7 @@ header
     position: relative;
     display: inline-block;
     height: 50px;
-    width: 40px;
+    width: 50px;
 }
 
 #dropdown_notif {
