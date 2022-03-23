@@ -14,9 +14,9 @@
                 <div id="dropdown_notif">
                 <i id="cloche" class="fa-solid fa-bell fa-xl"></i>
                 <div id="dropdown_content_notif" class="dropdown-content">
-                  <a  id="link_dropdown_notif" href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                  <a href="#"><font size="3">Fiche de Thomas BLONDEL à signer.</font></a>
+                  <a href="#"><font size="3">Fiche de Thomas BLONDEL à signer.</font></a>
+                  <a href="#"><font size="3">Fiche de Thomas BLONDEL à signer.</font></a>
                 </div>
                 </div>
 
@@ -26,9 +26,10 @@
                 <i class="fa-solid fa-user-large fa-xl profil"></i>
                 <i class="fa-solid fa-caret-down profil"></i>
                 <div id="dropdown_content_profil" class="dropdown-content">
-                  <a  id="link_dropdown_profil" href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                  <a id="dropdown_wishlist" href="#"><font size="3">Ma wishlist</font></a>
+                  <a id="dropdown_utilisateurs" href="#"><font size="3">Gestion des utilisateurs</font></a>
+                  <a id="dropdown_mesoffres" href="#"><font size="3">Mes offres</font></a>
+                  <a id="dropdown_offresetudiants" href="#"><font size="3">Offres des étudiants</font></a>
                 </div>
                 </div>
             </div>
