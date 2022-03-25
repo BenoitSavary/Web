@@ -12,7 +12,7 @@
             </ul>
 
             <div class="text-end">
-                <button type="button" id="connexion" class="btn btn-warning">Se connecter</button>
+                <button type="button" id="btn-color" class="btn btn-warning">Se connecter</button>
             </div>
         </div>
     </div>
