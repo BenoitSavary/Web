@@ -70,28 +70,30 @@
         <br>
         <br>
 
-        <div class="row row-cols-1 row-cols-md-3 justify-content-center">
-            <div id="presentation" class="card" style="width: 18rem;">
-                <img src="img/img-presentation.png" class="card-img-top" alt="Image de présentation">
-                <div class="card-body">
-                    <h5 class="card-title cover">Présentation</h5>
-                    <p class="card-text">Ce site permet de référencer toutes les offres de stage porposées par les entreprises recensées par CESI. En vous connectant, vous pourrez trouver des offres qui correspondent à votre profil.</p>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+                <div id="presentation" class="card" style="width: 18rem;">
+                    <img src="img/img-presentation.png" class="card-img-top" alt="Image de présentation">
+                    <div class="card-body">
+                        <h5 class="card-title cover">Présentation</h5>
+                        <p class="card-text">Ce site permet de référencer toutes les offres de stage porposées par les entreprises recensées par CESI. En vous connectant, vous pourrez trouver des offres qui correspondent à votre profil.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/img-ofrres.png" class="card-img-top" alt="Image d'offres d'entreprises">
-                <div class="card-body">
-                    <h5 class="card-title cover">Offres de stage</h5>
-                    <p class="card-text">Retrouvez les offres de stage les plus récentes en cliquant ci-dessous.</p>
-                    <a href="Offres.php" id="btn-color" class="btn btn-warning">Offres de stage</a>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/img-ofrres.png" class="card-img-top" alt="Image d'offres d'entreprises">
+                    <div class="card-body">
+                        <h5 class="card-title cover">Offres de stage</h5>
+                        <p class="card-text">Retrouvez les offres de stage les plus récentes en cliquant ci-dessous.</p>
+                        <a href="Offres.php" id="btn-color" class="btn btn-warning">Offres de stage</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/img-entreprises.png" class="card-img-top" alt="Image d'entreprises">
-                <div class="card-body">
-                    <h5 class="card-title cover">Entreprises</h5>
-                    <p class="card-text">Retrouvez la liste des entreprises qui recrutent en cliquant ci-dessous.</p>
-                    <a href="Entreprises.php" id="btn-color" class="btn btn-warning">Entreprises</a>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/img-entreprises.png" class="card-img-top" alt="Image d'entreprises">
+                    <div class="card-body">
+                        <h5 class="card-title cover">Entreprises</h5>
+                        <p class="card-text">Retrouvez la liste des entreprises qui recrutent en cliquant ci-dessous.</p>
+                        <a href="Entreprises.php" id="btn-color" class="btn btn-warning">Entreprises</a>
+                    </div>
                 </div>
             </div>
         </div>

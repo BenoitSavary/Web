@@ -18,8 +18,9 @@ header
 footer
 {
     background-color: #27251f;
-    position: static;
-    bottom: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 300;
 }
 
 .cover
@@ -214,4 +215,16 @@ footer
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid #d0d0ce;
+}
+
+footer::after {
+    background: linear-gradient(0deg,#d1e000,#d1e000 25%,#ea7500 0,#ea7500 50%,#5c88da 0,#5c88da 75%,#00a390 0,#00a390);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    float: right;
+    right: 0;
+    bottom: 0px;
+    width: 10px;
 }
