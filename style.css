@@ -1,14 +1,9 @@
-html{
-    height: 100%;
-}
-
 body
 {
     margin: 0;
     font-family: 'Roboto thin', sans-serif;
     font-size: 17px;
-    height: 100%;
-    overflow-x: hidden;
+    height: 100vh;
 }
 
 header
@@ -22,15 +17,8 @@ header
 footer
 {
     background-color: #27251f;
-    position: relative;
-    width: 100%;
+    position: absolute;
     bottom: 0;
-}
-
-.cover
-{
-    font-weight: bold;
-    font-size: 20px;
 }
 
 .logo
@@ -40,18 +28,6 @@ footer
     height: auto;
     position: relative;
     left: -65px;
-}
-
-.logos
-{
-    width: 70%;
-    height: auto;
-    position: relative;
-}
-
-#reseaux_sociaux{
-    position: relative;
-    right:0;
 }
 
 .image
@@ -65,11 +41,6 @@ footer
 }
 
 #connexion
-{
-    background-color: #ffc845;
-}
-
-#btn-color
 {
     background-color: #ffc845;
 }
@@ -97,23 +68,6 @@ footer
     height: 100%;
 }
 
-.lien
-{
-    text-decoration: none !important;
-    color: #ffffff;
-    padding: 5px;
-}
-
-.lien:hover
-{
-    color: #ffc845;
-}
-
-.CESI2022
-{
-    color: #ffffff;
-}
-
 #separate
 {
     position: sticky;
@@ -122,7 +76,7 @@ footer
 
 #Cookies
 {
-    position: fixed;
+    position: absolute;
     width: 20%;
     border-radius: 8px;
     padding: 1%;
@@ -231,16 +185,4 @@ footer
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid #d0d0ce;
-}
-
-footer::after {
-    background: linear-gradient(0deg,#d1e000,#d1e000 25%,#ea7500 0,#ea7500 50%,#5c88da 0,#5c88da 75%,#00a390 0,#00a390);
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    float: right;
-    right: 0;
-    bottom: 0px;
-    width: 10px;
 }
