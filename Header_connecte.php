@@ -6,9 +6,9 @@
                 </a>
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="Accueil.html" class="nav-link px-2 text-white">Accueil</a></li>
-                    <li><a href="Offres.html" class="nav-link px-2 text-white">Offres de stage</a></li>
-                    <li><a href="Entreprises.html" class="nav-link px-2 text-white">Entreprises</a></li>
+                    <li><a href="Accueil.html" class="nav-link px-2 text-white surbrillance">Accueil</a></li>
+                    <li><a href="Offres.html" class="nav-link px-2 text-white surbrillance">Offres de stage</a></li>
+                    <li><a href="Entreprises.html" class="nav-link px-2 text-white surbrillance">Entreprises</a></li>
                 </ul>
 
                 <div id="dropdown_notif">
