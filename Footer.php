@@ -1,5 +1,5 @@
 <footer>
-    <div class="container caca">
+    <div class="container">
         <div class="d-flex flex-nowrap justify-content-center align-items-center py-4 my-4">
             <div class="col-md-9">
                 <a class="lien" href="https://contact.cesi.fr/">Contactez-nous</a>
