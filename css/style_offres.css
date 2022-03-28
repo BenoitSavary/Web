@@ -1,12 +1,12 @@
 #main_offres {
   position: relative;
-  height: 1100px;
+  height: 800px;
   width: 100%;
 }
 
 #section_offres {
   position: absolute;
-  height: 60%;
+  height: 70%;
   width: 50%;
   left: 5%;
   top: 15%;
@@ -46,11 +46,11 @@
 
 #details_offres {
   position: absolute;
-  padding: 5px;
+  padding: 10px;
   right: 2.5%;
   top: 15%;
   width: 40%;
-  height: 60%;
+  height: 70%;
   border-style: solid;
   border-width: 1px;
   border-radius: 6px;
@@ -76,7 +76,7 @@
   padding: 5px;
   background-color: #ffffff;
   margin: 5px;
-  margin-bottom: 10%;
+  margin-bottom: 8.5%;
   border-style: solid;
   border-width: 1px;
   border-radius: 6px;
@@ -252,29 +252,29 @@
   color: white;
 }
 
-.pagination {
+#pagination {
   display: inline-block;
   position: absolute;
-  bottom: 20%;
+  bottom: 7%;
   left: 15%;
 }
 
-.pagination a {
+#pagination a {
   color: black;
   float: left;
   padding: 8px 16px;
   text-decoration: none;
 }
 
-.pagination a.active {
+#pagination a.active {
   background-color: #ffc845;
   color: white;
 }
 
-.pagination a:hover:not(.active) {
+#pagination a:hover:not(.active) {
   background-color: #ddd;
 }
 
-.pagination a {
+#pagination a {
   border: 1px solid #ddd;
 }

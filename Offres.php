@@ -77,93 +77,20 @@
         </select>
         </div>
 
-        <div id="section_offres">
-        <div class="offres" style="width:97%; height: 100px;">
-            <b><p class="p_offres">Intitulé de l'offre</p></b>
-            <b><p class="p_offres">Entreprise / Localisation</p></b>
-            <b><p class="p_offres">Date de mise en ligne</p></b>
-            <b><p class="accroche_offres">Accroche</p></b>
-            <div class="rating">
-	        <div class="stars">
-                <i id="star_1" class="fa-solid fa-star"></i>
-	        	<i id="star_2" class="fa-solid fa-star"></i>
-	        	<i id="star_3" class="fa-regular fa-star"></i>
-	        	<i id="star_4" class="fa-regular fa-star"></i>
-	        	<i id="star_5" class="fa-regular fa-star"></i>
-	        </div>
-            </div>
-        </div>
-        <div class="offres" style="width:97%; height: 100px;">
-            <b><p class="p_offres">Intitulé de l'offre</p></b>
-            <b><p class="p_offres">Entreprise / Localisation</p></b>
-            <b><p class="p_offres">Date de mise en ligne</p></b>
-            <b><p class="accroche_offres">Accroche</p></b>
-        </div>
-        <div class="offres" style="width:97%; height: 100px;">
-            <b><p class="p_offres">Intitulé de l'offre</p></b>
-            <b><p class="p_offres">Entreprise / Localisation</p></b>
-            <b><p class="p_offres">Date de mise en ligne</p></b>
-            <b><p class="accroche_offres">Accroche</p></b>
-        </div>
-        <div class="offres" style="width:97%; height: 100px;">
-            <b><p class="p_offres">Intitulé de l'offre</p></b>
-            <b><p class="p_offres">Entreprise / Localisation</p></b>
-            <b><p class="p_offres">Date de mise en ligne</p></b>
-            <b><p class="accroche_offres">Accroche</p></b>
-        </div>
-        <div class="offres" style="width:97%; height: 100px;">
-            <b><p class="p_offres">Intitulé de l'offre</p></b>
-            <b><p class="p_offres">Entreprise / Localisation</p></b>
-            <b><p class="p_offres">Date de mise en ligne</p></b>
-            <b><p class="accroche_offres">Accroche</p></b>
-        </div>
-        <div class="offres" style="width:97%; height: 100px;">
-            <b><p class="p_offres">Intitulé de l'offre</p></b>
-            <b><p class="p_offres">Entreprise / Localisation</p></b>
-            <b><p class="p_offres">Date de mise en ligne</p></b>
-            <b><p class="accroche_offres">Accroche</p></b>
-        </div>
-        <div class="offres" style="width:97%; height: 100px;">
-            <b><p class="p_offres">Intitulé de l'offre</p></b>
-            <b><p class="p_offres">Entreprise / Localisation</p></b>
-            <b><p class="p_offres">Date de mise en ligne</p></b>
-            <b><p class="accroche_offres">Accroche</p></b>
-        </div>
-        <div class="offres" style="width:97%; height: 100px;">
-            <b><p class="p_offres">Intitulé de l'offre</p></b>
-            <b><p class="p_offres">Entreprise / Localisation</p></b>
-            <b><p class="p_offres">Date de mise en ligne</p></b>
-            <b><p class="accroche_offres">Accroche</p></b>
-        </div>
-        </div>
+        <div id="section_offres"></div>
 
-        <div id="details_offres">
-            <div id="rappel" style="width: 98%; height: 15%;">
-                <p>Rappel de l'offre</p>
-            </div>
-            <div id="details" style="width: 98%; height: 74%;">
-                <p>Rappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offreRappel de l'offre</p>
-            </div>
-        </div>
+        <div id="details_offres"></div>
 
         <div id="before_details_offres">
             <p>Cliquez sur une offre pour afficher ses détails.</p>
         </div>
 
-        <div id="main">
-            <div class="pagination">
-              <a href="#">&laquo;</a>
+            <div id="pagination">
+              <a href="#" onclick='getUsers(pagePrecedente)'>&laquo;</a>
               <a class="active" href="#">1</a>
-              <a href="#">2</a>
-              <a href="#">3</a> 
-              <a href="#">4</a>
-              <a href="#">5</a>
-              <a href="#">6</a>
-              <a href="#">7</a>
               <a href="#">8</a>
-              <a href="#">&raquo;</a>
+              <a href="#" onclick='getUsers(pageSuivante)'>&raquo;</a>
             </div>
-        </div>
 
     </main>
     <?php include 'Footer.php' ?>
