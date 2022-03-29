@@ -244,3 +244,104 @@ footer::after {
     bottom: 0px;
     width: 10px;
 }
+
+.modal-content
+{
+    background: none;
+    border: none;
+}
+
+.top-modal
+{
+    background-color: #27251f !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bot-modal
+{
+    background-color: #8a8d8f;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.fermeture
+{
+    position: absolute;
+    padding: 2%;
+    top: 0px;
+    right: 0px;
+}
+
+.txt-jaune
+{
+    color: #ffc845;
+    font-family: 'Roboto condensed', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.jaune
+{
+    color: #ffc845;
+}
+
+.jaune:hover
+{
+    color: #27251f;
+}
+
+.txt-blanc
+{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.mail
+{
+    padding: 1%;
+    color: #ffc845;
+    list-style: none !important;
+    text-align: center;
+}
+
+.email
+{
+    color: #ffc845;
+}
+
+.email:hover
+{
+    color: #27251f;
+}
+
+.espace
+{
+    padding: 5%;
+}
+
+.espace2
+{
+    padding: 2%;
+}
+
+.box
+{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.btn-seco
+{
+    display: block;
+    margin: auto;
+}
