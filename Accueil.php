@@ -19,7 +19,7 @@
     <title>CESI Stage</title>
 </head>
 <body>
-    <?php include 'Header_connecte.php'; ?>
+    <?php include 'Header_nonconnecte.php'; ?>
 
     <main>
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
