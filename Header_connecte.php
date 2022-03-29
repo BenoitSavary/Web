@@ -28,7 +28,7 @@
                 <i class="fa-solid fa-caret-down profil"></i>
                 <div id="dropdown_content_profil" class="dropdown-content">
                   <a id="dropdown_monprofil" href="#"><font size="3">Mon profil</font></a>
-                  <a id="dropdown_wishlist" href="#"><font size="3">Ma wishlist</font></a>
+                  <a id="dropdown_wishlist" href="Wishlist.php"><font size="3">Ma wishlist</font></a>
                   <a id="dropdown_utilisateurs" href="#"><font size="3">Gestion des utilisateurs</font></a>
                   <a id="dropdown_mesoffres" href="#"><font size="3">Mes offres</font></a>
                   <a id="dropdown_offresetudiants" href="#"><font size="3">Offres des étudiants</font></a>

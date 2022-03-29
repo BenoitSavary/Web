@@ -17,7 +17,7 @@
 </head>
 <body>
     <?php include 'Header_connecte.php' ?>
-    <h2 id="h2content">Offres de stage</h2>
+    <h2 id="h2content">Wishlist</h2>
     <main id="main_offres">
         <div id="dropdown_localite" class="filtre">
         <select>
@@ -84,7 +84,13 @@
             <p>Cliquez sur une offre pour afficher ses détails.</p>
         </div>
 
-        <div id="pagination"></div>
+            <div id="pagination">
+              <a href="#" onclick='getUsers(pagePrecedente)'>&laquo;</a>
+              <a class="active" href="#">1</a>
+              <a href="#">8</a>
+              <a href="#" onclick='getUsers(pageSuivante)'>&raquo;</a>
+            </div>
+
     </main>
     <?php include 'Footer.php' ?>
     <script src="js/offres.js"></script>

@@ -1,0 +1,162 @@
+#h2content {
+  position: absolute;
+  left: 5%;
+  margin-top: 30px;
+}
+
+#entreprises {
+  margin-top: 15px;
+}
+
+#dropdown_secteur {
+  padding: 7px;
+  margin: 0;
+  left: 5%;
+  top: 14%;
+  border: 1px solid #ccc;
+  width: 12%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: relative;
+}
+
+#dropdown_localite {
+  padding: 7px;
+  margin: 0;
+  left: 20%;
+  top: 7%;
+  border: 1px solid #ccc;
+  width: 8%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: relative;
+}
+
+#dropdown_stagiaires {
+  padding: 7px;
+  margin: 0;
+  left: 31%;
+  top: 0%;
+  border: 1px solid #ccc;
+  width: 14%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: relative;
+}
+
+#dropdown_note_stagiaires {
+  padding: 7px;
+  margin: 0;
+  left: 48%;
+  top: -7%;
+  border: 1px solid #ccc;
+  width: 14%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: relative;
+}
+
+.filtre select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.filtre:after {
+  top: 50%;
+  left: 85%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000000;
+  border-width: 5px;
+  margin-top: -2px;
+}
+
+.filtre select:focus {
+  outline: none;
+}
+
+::selection{
+  background-color: #444;
+  color: white;
+}
+
+#pagination {
+  display: inline-block;
+  position: relative;
+  top: 25px;
+  left: 45%;
+}
+
+#pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#pagination a.active {
+  background-color: #ffc845;
+  color: white;
+}
+
+#pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+#pagination a {
+  border: 1px solid #ddd;
+}
+
+#stars {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+#search_entreprises {
+  position: relative;
+  width: 24%;
+  right: -68%;
+  top: -13%;
+}
+
+#searchbar {
+  position: absolute;
+  width: 89%;
+  right: 40px;
+}
+
+#search_button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#liste_entreprises{
+  position: relative;
+  right: 0;
+}
