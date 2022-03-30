@@ -12,7 +12,7 @@
             </ul>
 
             <div class="text-end">
-                <button type="button" id="btn-color" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#seco">Se connecter</button>
+                <button type="button" class="btn btn-warning btn-color" data-bs-toggle="modal" data-bs-target="#seco">Se connecter</button>
             </div>
         </div>
     </div>

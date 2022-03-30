@@ -13,7 +13,7 @@
     <script async src="/cdn-cgi/bm/cv/669835187/api.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/be9c976c2d.js" crossorigin="anonymous"></script>
-    <title>CESI Offres de stage</title>
+    <title>CESI Wishlist</title>
 </head>
 <body>
     <?php include 'Header_connecte.php' ?>
@@ -84,15 +84,9 @@
             <p>Cliquez sur une offre pour afficher ses détails.</p>
         </div>
 
-            <div id="pagination">
-              <a href="#" onclick='getUsers(pagePrecedente)'>&laquo;</a>
-              <a class="active" href="#">1</a>
-              <a href="#">8</a>
-              <a href="#" onclick='getUsers(pageSuivante)'>&raquo;</a>
-            </div>
-
+        <div id="pagination"></div>
     </main>
     <?php include 'Footer.php' ?>
-    <script src="js/offres.js"></script>
+    <script src="js/wishlist.js"></script>
 </body>
 </html>

@@ -1,18 +1,61 @@
+#bottom {
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+
 #h2content {
   position: absolute;
   left: 5%;
   margin-top: 30px;
 }
 
+#boutons_offres {
+  position: absolute;
+  padding: 4px;
+  width: 35%;
+  height: 50px;
+  right: 2%;
+  top: 25%;
+  border: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#btn_add {
+  position: absolute;
+  width: 28%;
+}
+
+#btn_update {
+  position: absolute;
+  width: 29%;
+  right: 37.5%;
+}
+
+#btn_delete {
+  position: absolute;
+  width: 32%;
+  right: 0;
+  margin-right: 4px;
+}
+
 #entreprises {
-  margin-top: 15px;
+  position: relative;
+  margin-bottom: 220px;
+  top: 200px;
 }
 
 #dropdown_secteur {
   padding: 7px;
   margin: 0;
   left: 5%;
-  top: 14%;
+  top: 80%;
   border: 1px solid #ccc;
   width: 12%;
   height: 50px;
@@ -20,14 +63,14 @@
   overflow: hidden;
   background-color: #ffc845;
   background: #ffc845;
-  position: relative;
+  position: absolute;
 }
 
 #dropdown_localite {
   padding: 7px;
   margin: 0;
   left: 20%;
-  top: 7%;
+  top: 80%;
   border: 1px solid #ccc;
   width: 8%;
   height: 50px;
@@ -35,14 +78,14 @@
   overflow: hidden;
   background-color: #ffc845;
   background: #ffc845;
-  position: relative;
+  position: absolute;
 }
 
 #dropdown_stagiaires {
   padding: 7px;
   margin: 0;
   left: 31%;
-  top: 0%;
+  top: 80%;
   border: 1px solid #ccc;
   width: 14%;
   height: 50px;
@@ -50,14 +93,14 @@
   overflow: hidden;
   background-color: #ffc845;
   background: #ffc845;
-  position: relative;
+  position: absolute;
 }
 
 #dropdown_note_stagiaires {
   padding: 7px;
   margin: 0;
   left: 48%;
-  top: -7%;
+  top: 80%;
   border: 1px solid #ccc;
   width: 14%;
   height: 50px;
@@ -65,7 +108,7 @@
   overflow: hidden;
   background-color: #ffc845;
   background: #ffc845;
-  position: relative;
+  position: absolute;
 }
 
 .filtre select {
@@ -107,7 +150,7 @@
 #pagination {
   display: inline-block;
   position: relative;
-  top: 25px;
+  bottom: 5px;
   left: 45%;
 }
 
@@ -138,10 +181,10 @@
 }
 
 #search_entreprises {
-  position: relative;
+  position: absolute;
   width: 24%;
-  right: -68%;
-  top: -13%;
+  right: 7%;
+  top: 83%;
 }
 
 #searchbar {

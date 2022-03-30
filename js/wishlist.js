@@ -37,8 +37,7 @@ function getUsers(pageID)
             m++;
          }
          else if(m>=minimum && m<maximum){
-            html += "<div id='"+user.id+"' class='offres' style='width:97%; height: 100px;' onclick='details(this.id);'><b><p class='p_offres'>"+user.first_name+"</p></b><b><p class='p_offres'>"+user.last_name+"</p></b><b><p class='p_offres'>"+user.email+"</p></b><b><p class='accroche_offres'>Accroche</p></b><div class='rating'><div class='stars'><img src='img/filled_star.png' class='star'></img><img src='img/filled_star.png' class='star'></img><img src='img/empty_star.png' class='star'></img><img src='img/empty_star.png' class='star'></img><img src='img/empty_star.png' class='star'></img></div></div></div>";
-            m++;
+            html += "<div id='"+user.id+"' class='offres' style='width:97%; height: 100px;' onclick='details(this.id);'><b><p class='p_offres'>"+user.first_name+"</p></b><b><p class='p_offres'>"+user.last_name+"</p></b><b><p class='p_offres'>"+user.email+"</p></b><b><p class='accroche_offres'>Accroche</p></b><div class='rating'><div class='stars'><img src='img/filled_star.png' class='star'></img><img src='img/filled_star.png' class='star'></img><img src='img/empty_star.png' class='star'></img><img src='img/empty_star.png' class='star'></img><img src='img/empty_star.png' class='star'></img></div></div></div>";            m++;
          }
       });
       pagePrecedente = pageID - 1;

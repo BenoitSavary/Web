@@ -13,12 +13,12 @@
     <script async src="/cdn-cgi/bm/cv/669835187/api.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/be9c976c2d.js" crossorigin="anonymous"></script>
-    <title>CESI Entreprises</title>
+    <title>CESI Utilisateurs</title>
 </head>
 <body>
     <?php include 'Header_connecte.php' ?>
 
-    <h2 id="h2content" styonClick='window.location.href="Wishlist.php"'>Entreprises</h2>
+    <h2 id="h2content" styonClick='window.location.href="Wishlist.php"'>Utilisateurs</h2>
     <div id="bottom">
     <div id="dropdown_secteur" class="filtre">
     <select>

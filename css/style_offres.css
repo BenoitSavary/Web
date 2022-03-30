@@ -4,6 +4,41 @@
   width: 100%;
 }
 
+#boutons_offres {
+  position: absolute;
+  padding: 4px;
+  width: 35%;
+  height: 50px;
+  right: 3%;
+  top: 3%;
+  border: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#btn_add {
+  position: absolute;
+  width: 28%;
+}
+
+#btn_update {
+  position: absolute;
+  width: 29%;
+  right: 37.5%;
+}
+
+#btn_delete {
+  position: absolute;
+  width: 32%;
+  right: 0;
+  margin-right: 4px;
+}
+
 #section_offres {
   position: absolute;
   height: 70%;
@@ -67,8 +102,13 @@
 
 .stars {
   position: absolute;
-  top: 38%;
-  right: 10px;
+  bottom: 38%;
+  left: 80%;
+}
+
+.star {
+  height: 15%;
+  width: 15%;
 }
 
 #rappel {
@@ -101,6 +141,17 @@
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   overflow-y: scroll;
+}
+
+#btn_postuler {
+  position: relative;
+  bottom: 5px;
+  margin-right: 10px;
+}
+
+#heart {
+  position: relative;
+  left: 10px;
 }
 
 #before_details_offres {

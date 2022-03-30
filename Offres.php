@@ -76,6 +76,12 @@
         </select>
         </div>
 
+        <div id="boutons_offres">
+        <a href="" id="btn_add" class="btn btn-warning btn-color">Ajouter</a>
+        <a href="" id="btn_update" class="btn btn-warning btn-color">Modifier</a>
+        <a href="" id="btn_delete" class="btn btn-warning btn-color">Supprimer</a>
+        </div>
+
         <div id="section_offres"></div>
 
         <div id="details_offres"></div>

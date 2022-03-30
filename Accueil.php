@@ -84,7 +84,7 @@
                     <div class="card-body">
                         <h5 class="card-title cover">Offres de stage</h5>
                         <p class="card-text">Retrouvez les offres de stage les plus récentes en cliquant ci-dessous.</p>
-                        <a href="Offres.php" id="btn-color" class="btn btn-warning">Offres de stage</a>
+                        <a href="Offres.php" class="btn btn-warning btn-color">Offres de stage</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
@@ -92,7 +92,7 @@
                     <div class="card-body">
                         <h5 class="card-title cover">Entreprises</h5>
                         <p class="card-text">Retrouvez la liste des entreprises qui recrutent en cliquant ci-dessous.</p>
-                        <a href="Entreprises.php" id="btn-color" class="btn btn-warning">Entreprises</a>
+                        <a href="Entreprises.php" class="btn btn-warning btn-color">Entreprises</a>
                     </div>
                 </div>
             </div>
