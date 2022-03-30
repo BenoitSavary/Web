@@ -1,93 +1,94 @@
 <div class="margin">
-<h2> Création/modification d'une offre de stage </h2>
+<h2> Création/modification d'une entreprise </h2>
 <div class="separation"></div>
-<h3>Veuillez renseigner les informations de l'entreprise : </h3>
-
+<h3>Veuillez renseigner les information sur l'entreprise : </h3>
 
 <form>
-  <div class="group">
-                <label> Nom de l'entreprise* </label>
-                <input type="text"/>
-            </div>
     <div class="form">
-            
+    <div class="group">
+       <label> Bannière de l'entreprise</label>
+       <img src="" alt="Bannière de l'entreprise" border="1" />
+       <input type="file" max="50" /> <br>
+    </div>
+    <div class="group">
+       <label>Logo de l'entreprise</label>
+       <img src="" alt="Logo de l'entreprise" border="1" />
+       <input type="file"/>
+    </div>
+    </div>
+
+            <div class="group">
+                <label> Nom de l'entreprise* </label>
+                <input type="text" />
+            </div>
+            <div class="group">
+                <label> Présentation de l'entreprise* </label>
+                <textarea placeholder="Saisissez le détail de l'offre ici..." rows="10">
+                </textarea>
+            </div>
+     
+      <div class="form">  
             <div class="group">
                 <label> Code Postal* </label>
                 <input type="text" />
             </div>
             <div class="group">
-                <label> ville* </label>
+                <label> Ville* </label>
                 <select >
-                <option value="test">--Sélectionner une ville-- </option>
+                <option value="test"> --Sélectionner une ville-- </option>
+                <option value="test"> nope </option>
                 </select>
             </div>
-            
             <div class="group">
-                <label> Adresse mail du contact </label>
-                <input type="email"/>
-            </div>
-    </div>
-        <div class="Des2"> 
-            <div class="group20">
-               <button> Mettre à jour les données dans entreprise </button>
-            </div> 
-  </div>
+                <label> Adresse* </label>
+                <input type="text" />
+            </div>    
+            <div class="group">
+                <label> Site de l'entreprise </label>
+                <input type="email" />
+            </div>   
+      </div>
 
+        <div class="Des"> 
+            <div class="group20">
+               <button>Rajouter</button>
+           </div>
+            <div class="group20">
+               <button>Annuler</button>
+            </div>    
+        </div>
+   
+
+</form>
 
 <div class="separation"></div>
-
-<h3> Veuillez renseigner les informations sur l'offre : </h3>
-
-
+<h3>Informations et satistiques de l'entreprise : </h3>
+<div class="form">
             <div class="group">
-                <label> Intitulé de l'offre* </label>
+                <label> Ville </label>
+                <select multiple>
+                <option value="test">test</option>
+                </select>
+            </div>
+            <div class="group">
+                <label> Email des contacts </label>
+                <select multiple>
+                <option value="test">test</option>
+                </select>
+            </div>
+</div>
+            <div class="form2">
+            <div class="group">
+                <label> Nombre de stagiaire </label> 
                 <input type="text" />
             </div>
-
-    <div class="form">
-            <div class="group" id="test">
-                <label> Début du stage* </label>
-                <input type="date" />
+            note des stagiaires
+            
             </div>
             <div class="group">
-                <label> Durée du stage* </label>
-                <input type="number"/>
-            </div>
-            <div class="group">
-                <label> Compétence principale* </label>
-                <select  >
-                <option value="test"> --Sélectionner une majeur-- </option>
+                <label> Note des tuteurs </label>
+                <select multiple>
+                <option value="test">test</option>
                 </select>
             </div>
-            <div class="group">
-                <label> Compétence secondaire </label>
-                <select  >
-                <option value="test"> --Sélectionner une mineur-- </option>
-                </select>
-            </div>
-            <div class="group">
-                <label> Montant gratification </label>
-                <input type="number"/>
-            </div>
-            <div class="group">
-                <label> Nombre de place </label>
-                <input type="number"/>
-            </div>       
-    </div>
-
-            <div class="group">
-                <label> Détail de l'offre* </label>
-                <textarea placeholder="Saisissez le détail de l'offre ici..." rows="10">
-                </textarea>
-            </div>
-
-       <div class="Des">   
-          <div class="group20">
-              <button>Enregistrer</button>
-          </div>
-          <div class="group20">
-              <button>Annuler</button>
-          </div>
-      </div>
-</form>
 </div>
