@@ -345,3 +345,14 @@ footer::after {
     display: block;
     margin: auto;
 }
+
+.role-select
+{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

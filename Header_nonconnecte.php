@@ -20,51 +20,12 @@
 
 <!-- Modal de la connexion -->
 <div class="modal fade" id="seco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-
-                <div class="top-modal">
-                    <button type="button" class="btn-close btn-close-white fermeture" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <h5 class="txt-jaune" id="exampleModalLabel">Se connecter</h5>
-                    <h6 class="txt-blanc" id="exampleModalLabel">Veuillez saisir votre identifiant et votre mot de passe !</h6>
-                </div>
-                <div  class="bot-modal">
-                    <div class="espace">
-                        <input class="box" type="text" id="id" name="Identifiant" placeholder="Adresse mail" size="30" required minlength="">
-                        <br>
-                        <input class="box" type="password" id="mdp" name="Password" placeholder="Mot de passe" size="30" required minlength="8">
-                    </div>
-                    <h6 class="txt-blanc"><a href="#mdpoublie" class="jaune">Mot de passe oublié ?</a></h6>
-                    <div class="espace2">
-                        <input id="btn-color" class="btn btn-warning btn-seco" type="submit" value="Se connecter">
-                    </div>
-                </div>
-
-        </div>
-    </div>
+    <?php include 'seco.php'; ?>
 </div>
 
 <!-- Modal du mdp oublié -->
 <div class="modal fade" id="mdpoublie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-
-                <div class="top-modal">
-                    <button type="button" class="btn-close btn-close-white fermeture" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <h5 class="txt-jaune" id="exampleModalLabel">Mot de passe oublié ?</h5>
-                    <h6 class="txt-blanc" id="exampleModalLabel">Veuillez contacter un administrateur par mail</h6>
-                </div>
-                <div  class="bot-modal">
-                    <div class="espace">
-                        <li class="mail"><a href="valentin.campagne@viacesi.fr" class="email">valentin.campagne@viacesi.fr</a></li>
-                        <li class="mail"><a href="nathan.szusciak.viacesi.fr" class="email">nathan.szusciak.viacesi.fr</a></li>
-                        <li class="mail"><a href="benoit.savary@viacesi.fr" class="email">benoit.savary@viacesi.fr</a></li>
-                        <li class="mail"><a href="thomas.blondel@viacesi.fr" class="email">thomas.blondel@viacesi.fr</a></li>
-                        <li class="mail"><a href="arthur.kubiak@viacesi.fr" class="email">arthur.kubiak@viacesi.fr</a></li>
-                    </div>
-                    <h6 class="txt-blanc" id="exampleModalLabel">Vous avez un compte ? <a href="#seco" class="jaune">Se connecter</a></h6>
-                </div>
-
-        </div>
-    </div>
+    <?php include 'mdpoublie.php'; ?>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
