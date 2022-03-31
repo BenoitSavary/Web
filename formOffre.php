@@ -1,5 +1,5 @@
  <div class="margin">
-<h2> Formulaire des offres de stage </h2>
+<h2> Formulaire de l'offre de stage </h2>
 <div class="separation"></div>
 
     <form>
