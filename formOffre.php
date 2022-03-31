@@ -42,7 +42,7 @@
          </div>
  <div class="Des2"> 
       <div class="group20">
-        <button>Enregistrer</button>
+        <button>Ajouter des informations sur l'entreprise</button>
       </div>
     </div>
       <div class="separation"></div>
