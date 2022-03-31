@@ -1,6 +1,8 @@
 <div class="sidebar-mobile">
     <header class="bandeau">
-        <img class="logo-centrer" src="img/logo-CESI.png" alt="Logo CESI">
+        <a href="Accueil.php">
+            <img class="logo-centrer" src="img/logo-CESI.png" alt="Logo CESI">
+        </a>
     </header>
     <div class="sidebar close">
         <i class='bx bx-menu' ></i>
