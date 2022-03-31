@@ -1,6 +1,6 @@
     <body>
     <div class="margin">
-<h2> Création/modification des utilisateurs </h2>
+<h2> Formulaire des utilisateurs </h2>
 <div class="separation"></div>
 <h3> Commencer par remplir les champs suivants : </h3>
 
