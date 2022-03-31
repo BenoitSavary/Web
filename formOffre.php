@@ -83,7 +83,7 @@
             <input type="number" />
           </div>
        
-          <div class="leftOffre"> </div>
+          
           <div class="group">
             <label>Détail de l'offre*</label>
             <textarea placeholder="Saisissez le détail de l'offre ici..." rows="10"></textarea>
