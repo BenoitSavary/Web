@@ -169,4 +169,12 @@ fieldset{
 }
 
 
+@media screen and (max-width: 1000px) {
+  .margin {
+   margin-left: 5%;
+  margin-right: 5%;
+  }
+}
+
+
 
