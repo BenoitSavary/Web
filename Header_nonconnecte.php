@@ -24,8 +24,3 @@
 <div class="modal fade" id="seco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <?php include 'seco.php'; ?>
 </div>
-
-<!-- Modal du mdp oublié -->
-<div class="modal fade" id="mdpoublie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <?php include 'mdpoublie.php'; ?>
-</div>

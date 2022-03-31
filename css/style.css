@@ -337,6 +337,14 @@ footer::after {
     padding-bottom: 2%;
 }
 
+.txt-noir
+{
+    color: #27251f;
+    font-weight: bold !important;
+    text-align: center !important;
+    padding-bottom: 2%;
+}
+
 .mail
 {
     padding: 1%;
