@@ -80,7 +80,7 @@ var details = function(id) {
       users = JSON.parse(xhr.response);
       users.data.forEach(user =>
          {if(user.id == id){
-            document.getElementById("details_offres").innerHTML = "<div id='rappel' style='width: 98%; height: 15%;'><p>"+user.email+"</p><a href='' id='btn_postuler' class='btn btn-warning btn-color'>Postuler</a><i id='heart' style='bottom: 5px;' class='fa-regular fa-heart'></i></div><div id='details' style='width: 98%; height: 74%;'><p></p></div>";
+            document.getElementById("details_offres").innerHTML = "<div id='rappel' style='width: 98%; height: 15%;'><p>"+user.email+"</p></div><div id='details' style='width: 98%; height: 74%;'><p>Réponse : </p><input type='radio' id='radio_oui' name='reponse' value='Oui' checked><label for='oui'>   Oui   </label><br><input type='radio' id='radio_non' name='reponse' value='Non'><label for='non'>   Non   </label><br><br><a href='' id='btn_add' class='btn btn-warning btn-color'>Envoyer</a><br><br><br><p>Fiche de validation : </p><input type='checkbox' id='checkbox_emise' name='fiche_validation' value='Emise'><label for='emise'>   Émise par l'entreprise   </label><br><input type='checkbox' id='checkbox_signee' name='fiche_validation' value='Signee'><label for='signee'>   Signée par le pilote   </label><br><br><p>Convention : </p><input type='checkbox' id='checkbox_emise_entreprise' name='convention' value='Emise_entreprise'><label for='emise_entreprise'>   Émise à l'entreprise   </label><br><input type='checkbox' id='checkbox_signee_convention' name='convention' value='Signee_entreprise'><label for='signee'>   Signée par l'entreprise   </label><br></div>";
             document.getElementById("details_offres").style.visibility = "visible";
          };});
    }

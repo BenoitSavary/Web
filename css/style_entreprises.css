@@ -57,7 +57,7 @@
   left: 5%;
   top: 80%;
   border: 1px solid #ccc;
-  width: 12%;
+  width: 14%;
   height: 50px;
   border-radius: 3px;
   overflow: hidden;
@@ -69,7 +69,7 @@
 #dropdown_localite {
   padding: 7px;
   margin: 0;
-  left: 20%;
+  left: 21%;
   top: 80%;
   border: 1px solid #ccc;
   width: 8%;
@@ -87,7 +87,7 @@
   left: 31%;
   top: 80%;
   border: 1px solid #ccc;
-  width: 14%;
+  width: 16%;
   height: 50px;
   border-radius: 3px;
   overflow: hidden;
@@ -99,10 +99,10 @@
 #dropdown_note_stagiaires {
   padding: 7px;
   margin: 0;
-  left: 48%;
+  left: 49%;
   top: 80%;
   border: 1px solid #ccc;
-  width: 14%;
+  width: 16%;
   height: 50px;
   border-radius: 3px;
   overflow: hidden;

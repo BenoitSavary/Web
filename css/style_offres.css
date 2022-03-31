@@ -186,7 +186,7 @@
   left: 17%;
   top: 12%;
   border: 1px solid #ccc;
-  width: 10%;
+  width: 12%;
   height: 50px;
   border-radius: 3px;
   overflow: hidden;
@@ -198,10 +198,10 @@
 #dropdown_duree {
   padding: 7px;
   margin: 0;
-  left: 29%;
+  left: 31%;
   top: 12%;
   border: 1px solid #ccc;
-  width: 10%;
+  width: 8%;
   height: 50px;
   border-radius: 3px;
   overflow: hidden;
@@ -230,7 +230,7 @@
   left: 53%;
   top: 12%;
   border: 1px solid #ccc;
-  width: 10%;
+  width: 12%;
   height: 50px;
   border-radius: 3px;
   overflow: hidden;
@@ -241,10 +241,10 @@
 #dropdown_date_offre {
   padding: 7px;
   margin: 0;
-  left: 65%;
+  left: 67%;
   top: 12%;
   border: 1px solid #ccc;
-  width: 10%;
+  width: 12%;
   height: 50px;
   border-radius: 3px;
   overflow: hidden;
@@ -255,10 +255,10 @@
 #dropdown_places {
   padding: 7px;
   margin: 0;
-  left: 77%;
+  left: 81%;
   top: 12%;
   border: 1px solid #ccc;
-  width: 14%;
+  width: 16%;
   height: 50px;
   border-radius: 3px;
   overflow: hidden;
