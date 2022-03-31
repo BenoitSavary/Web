@@ -18,7 +18,7 @@
                     <option value="3">Tuteur</option>
                 </select>
             </div>
-            <h6 class="txt-blanc"><a href="#mdpoublie" class="jaune">Mot de passe oublié ?</a></h6>
+            <h6 class="txt-blanc"><a href="mdpoublie.php" class="jaune">Mot de passe oublié ?</a></h6>
             <div class="espace2">
                 <input id="btn-color" class="btn btn-warning btn-seco" type="submit" value="Se connecter">
             </div>

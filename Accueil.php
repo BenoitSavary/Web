@@ -10,16 +10,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <script async src="/cdn-cgi/bm/cv/669835187/api.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/be9c976c2d.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <title>CESI Stage</title>
 </head>
 <body>
+
     <?php include 'Header_nonconnecte.php'; ?>
+    <?php include 'sidebar_nonconnecte.php'; ?>
 
     <main>
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -30,7 +34,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="presentation" src="img/presentation.png" alt="Image présentation">
+                    <img class="presentation" src="img/presentation.webp" alt="Image présentation">
 
                     <div class="container">
                         <div class="carousel-caption text-start">
@@ -39,7 +43,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="offres" src="img/offres.png" alt="Image offres">
+                    <img class="offres" src="img/offres.webp" alt="Image offres">
 
                     <div class="container">
                         <div class="carousel-caption">
@@ -48,7 +52,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="entreprises" src="img/entreprises.png" alt="Image entreprises">
+                    <img class="entreprises" src="img/entreprises.webp" alt="Image entreprises">
 
                     <div class="container">
                         <div class="carousel-caption text-end">
@@ -105,5 +109,6 @@
     <?php include 'Footer.php' ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/sidebar.js"></script>
 </body>
 </html>
