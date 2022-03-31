@@ -1,5 +1,5 @@
 <div class="margin">
-<h2> Création/modification d'une entreprise </h2>
+<h2> Formulaire de l'entreprise </h2>
 <div class="separation"></div>
 <h3>Veuillez renseigner les information sur l'entreprise : </h3>
 
