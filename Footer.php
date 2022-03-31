@@ -13,7 +13,7 @@
             <ul class="nav justify-content-center align-items-center">
                 <li class="ms-3"><a href="https://twitter.com/GroupeCESI"><img class="logo-twitter" src="img/logo-twitter.png" alt="Logo Twitter"></a></li>
                 <li class="ms-3"><a href="https://www.linkedin.com/company/groupe-cesi/"><img class="logo-linkedin" src="img/logo-linkedin.png" alt="Logo Linkedin"></a></li>
-                <li class="ms-3"><a href="https://www.youtube.com/user/groupecesi1"><img class="logo-youtube" src="img/logo-youtube.png" alt="Logo Youtube"></a></li>
+                <li class="ms-3"><a href="https://www.youtube.com/user/groupecesi1"><img class="logo-youtube" src="img/logo-youtube.webp" alt="Logo Youtube"></a></li>
                 <li class="ms-3"><a href="https://www.instagram.com/campus_cesi/"><img class="logo-instagram" src="img/logo-instagram.png" alt="Logo Instagram"></a></li>
             </ul>
         </div>

@@ -33,7 +33,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="presentation" src="img/presentation.png" alt="Image présentation">
+                    <img class="presentation" src="img/presentation.webp" alt="Image présentation">
 
                     <div class="container">
                         <div class="carousel-caption text-start">
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="offres" src="img/offres.png" alt="Image offres">
+                    <img class="offres" src="img/offres.webp" alt="Image offres">
 
                     <div class="container">
                         <div class="carousel-caption">
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="entreprises" src="img/entreprises.png" alt="Image entreprises">
+                    <img class="entreprises" src="img/entreprises.webp" alt="Image entreprises">
 
                     <div class="container">
                         <div class="carousel-caption text-end">
