@@ -20,18 +20,24 @@
     <title>CESI Offres de stage</title>
 </head>
 <body>
-    <?php include 'Header_connecte.php' ?>
+@if (Route::has('login'))
+        @auth
+            @include ('Header_connecte')
+        @else
+            @include ('Header_nonconnecte')
+        @endauth
+    @endif
 
     <div id="content">
         <div id="content_1">
             <div id="logo">
-            <img width="200px" height="200px" id="logo_entreprise" src="img/entreprises.png">
+            <img width="200px" height="200px" id="logo_entreprise" src="">
             <div id="logo_fond"></div>
             </div>
 
-            <h2 id="h2content"><?php echo $ent ?></h2>
+            <h2 id="h2content"></h2>
 
-            <div id='evaluation_entreprise'><i id='star_1' class='fa-solid fa-star'></i><i id='star_2' class='fa-solid fa-star'></i><i id='star_3' class='fa-regular fa-star'></i><i id='star_4' class='fa-regular fa-star'></i><i id='star_5' class='fa-regular fa-star'></i></div>
+            <div id='evaluation_entreprise'></div>
 
             <h6 id="secteur">Secteur d'activité</h6>
             <h6 id="nombre_stagiaires">Stagiaires CESI déjà acceptés en stage : </h6>
@@ -40,7 +46,7 @@
 
         <div id="content_2">
             <h5 id="localite">Localités : </h5>
-            <ul class="localite">
+            <ul id="liste_adresses" class="localite">
             <li>8, rue du Grand pré ARRAS 62000</li>
             <li>8, rue du Grand pré ARRAS 62000</li>
             <li>8, rue du Grand pré ARRAS 62000</li>
@@ -51,19 +57,17 @@
     <div id="other_content">
     <div id="descriptif">
         <h5>Descriptif :</h5>
-        <textarea id="descriptif_texte">
-            dfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        </textarea>
+        <textarea id="descriptif_texte"></textarea>
     </div>
 
-    
     <div id="entreprise_offres">
         <h5 id="h5offres">Offres proposées par l'entreprise :</h5>
-        <div id="section_offres"><div id="1" class="offres" style="width:97%; height: 100px;" onclick="details(this.id);"><b><p class="p_offres">George</p></b><b><p class="p_offres">Bluth</p></b><b><p class="p_offres">george.bluth@reqres.in</p></b><b><p class="accroche_offres">Accroche</p></b><div class="rating"><div class="stars"><img src="img/filled_star.png" class="star"></img><img src="img/filled_star.png" class="star"></img><img src="img/empty_star.png" class="star"></img><img src="img/empty_star.png" class="star"></img><img src="img/empty_star.png" class="star"></img></div></div></div><div id="2" class="offres" style="width:97%; height: 100px;" onclick="details(this.id);"><b><p class="p_offres">Janet</p></b><b><p class="p_offres">Weaver</p></b><b><p class="p_offres">janet.weaver@reqres.in</p></b><b><p class="accroche_offres">Accroche</p></b><div class="rating"><div class="stars"><img id="star_1" class="star"></img><img id="star_2" class="star"></img><img id="star_3" class="star"></img><img id="star_4" class="star"></img><img id="star_5" class="star"></img></div></div></div><div id="3" class="offres" style="width:97%; height: 100px;" onclick="details(this.id);"><b><p class="p_offres">Emma</p></b><b><p class="p_offres">Wong</p></b><b><p class="p_offres">emma.wong@reqres.in</p></b><b><p class="accroche_offres">Accroche</p></b><div class="rating"><div class="stars"><img id="star_1" class="star"></img><img id="star_2" class="star"></img><img id="star_3" class="star"></img><img id="star_4" class="star"></img><img id="star_5" class="star"></img></div></div></div><div id="4" class="offres" style="width:97%; height: 100px;" onclick="details(this.id);"><b><p class="p_offres">Eve</p></b><b><p class="p_offres">Holt</p></b><b><p class="p_offres">eve.holt@reqres.in</p></b><b><p class="accroche_offres">Accroche</p></b><div class="rating"><div class="stars"><img id="star_1" class="star"></img><img id="star_2" class="star"></img><img id="star_3" class="star"></img><img id="star_4" class="star"></img><img id="star_5" class="star"></img></div></div></div><div id="5" class="offres" style="width:97%; height: 100px;" onclick="details(this.id);"><b><p class="p_offres">Charles</p></b><b><p class="p_offres">Morris</p></b><b><p class="p_offres">charles.morris@reqres.in</p></b><b><p class="accroche_offres">Accroche</p></b><div class="rating"><div class="stars"><img id="star_1" class="star"></img><img id="star_2" class="star"></img><img id="star_3" class="star"></img><img id="star_4" class="star"></img><img id="star_5" class="star"></img></div></div></div><div id="6" class="offres" style="width:97%; height: 100px;" onclick="details(this.id);"><b><p class="p_offres">Tracey</p></b><b><p class="p_offres">Ramos</p></b><b><p class="p_offres">tracey.ramos@reqres.in</p></b><b><p class="accroche_offres">Accroche</p></b><div class="rating"><div class="stars"><img id="star_1" class="star"></img><img id="star_2" class="star"></img><img id="star_3" class="star"></img><img id="star_4" class="star"></img><img id="star_5" class="star"></img></div></div></div></div>
+        <div id="section_offres"></div>
     </div>
     </div>
+    <input id="input_de_secours" type="text" value="<?php echo $ent ?>" style="visibility: hidden">
 
-
-    <?php include 'Footer.php' ?>
+    @include('Footer')
+    <script src="js/fiche_entreprise.js"></script>
 </body>
 </html>

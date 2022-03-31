@@ -1,3 +1,7 @@
+<?php
+    $off = (int)@$_GET["off"];
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -13,12 +17,24 @@
     <script async src="/cdn-cgi/bm/cv/669835187/api.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/be9c976c2d.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <title>CESI Offres de stage</title>
 </head>
 <body>
-    <?php include 'Header_connecte.php' ?>
+    @if (Route::has('login'))
+        @auth
+            @include ('Header_connecte')
+            @include ('sidebar_connecte')
+        @else
+            @include ('Header_nonconnecte')
+            @include ('sidebar_nonconnecte')
+        @endauth
+    @endif
+
+
     <h2 id="h2content">Offres de stage</h2>
     <main id="main_offres">
+
         <div id="dropdown_localite" class="filtre">
         <select>
             <option>Localité</option>
@@ -76,10 +92,13 @@
         </select>
         </div>
 
+
         <div id="boutons_offres">
-        <a href="" id="btn_add" class="btn btn-warning btn-color">Ajouter</a>
-        <a href="" id="btn_update" class="btn btn-warning btn-color">Modifier</a>
+        @if(Gate::allows('access_admin',) or Gate::allows('access_pilote') or Gate::allows('access_delegue'))
+        <a href="formulaireOffre" id="btn_add" class="btn btn-warning btn-color">Ajouter</a>
+        <a href="formulaireOffre" id="btn_update" class="btn btn-warning btn-color">Modifier</a>
         <a href="" id="btn_delete" class="btn btn-warning btn-color">Supprimer</a>
+        @endif
         </div>
 
         <div id="section_offres"></div>
@@ -90,9 +109,20 @@
             <p>Cliquez sur une offre pour afficher ses détails.</p>
         </div>
 
-        <div id="pagination"></div>
+        <div id="main">
+            <div id="pagination">
+              <a href="#" onclick='getUsers(pagePrecedente)'>&laquo;</a>
+              <a class="active" href="#">1</a>
+              <a href="#">8</a>
+              <a href="#" onclick='getUsers(pageSuivante)'>&raquo;</a>
+            </div>
+        </div>
+
     </main>
-    <?php include 'Footer.php' ?>
+    <input id="input_de_secours2" type="text" value="<?php echo $off ?>" style="visibility: hidden">
+
     <script src="js/offres.js"></script>
+    <script src="js/sidebar.js"></script>
 </body>
+@include ('Footer')
 </html>

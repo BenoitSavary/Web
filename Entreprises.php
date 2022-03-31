@@ -16,10 +16,16 @@
     <title>CESI Entreprises</title>
 </head>
 <body>
-    <?php include 'Header_connecte.php' ?>
+@if (Route::has('login'))
+        @auth
+            @include ('Header_connecte')
+        @else
+            @include ('Header_nonconnecte')
+        @endauth
+    @endif
 
-    <h2 id="h2content" styonClick='window.location.href="Wishlist.php"'>Entreprises</h2>
-    <div id="bottom">
+    <h2 id="h2content">Entreprises</h2>
+
     <div id="dropdown_secteur" class="filtre">
     <select>
         <option>Secteur d'activité</option>
@@ -54,8 +60,8 @@
     </div>
 
     <div id="boutons_offres">
-        <a href="" id="btn_add" class="btn btn-warning btn-color">Ajouter</a>
-        <a href="" id="btn_update" class="btn btn-warning btn-color">Modifier</a>
+        <a href="formulaireEntreprise" id="btn_add" class="btn btn-warning btn-color">Ajouter</a>
+        <a href="formulaireEntreprise" id="btn_update" class="btn btn-warning btn-color">Modifier</a>
         <a href="" id="btn_delete" class="btn btn-warning btn-color">Supprimer</a>
     </div>
 
@@ -64,13 +70,15 @@
         <button id="search_button" class="btn btn-dark" onclick="recherche()" type="submit" id="oSoumettre" style="border-top-right-radius:.25rem;border-bottom-right-radius:.25rem;"><i class="fas fa-search"></i></button>
     </div>
 
-    <div id="entreprises" class="container">
-      <div id="liste_entreprises" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"></div>
-    </div>
+<div id="entreprises" class="container">
+  <div id="liste_entreprises" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"></div>
+</div>
 
-    <div id="pagination"></div>
-</main>
-    <?php include 'Footer.php' ?>
+<div id="pagination"></div>
+
+
+    @include ('Footer')
+
     <script src="js/entreprises.js"></script>
 </body>
 </html>
